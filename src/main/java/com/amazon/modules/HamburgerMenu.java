@@ -14,7 +14,6 @@ public class HamburgerMenu extends BaseClass {
     @FindBy(id = "nav-hamburger-menu")
     WebElement hamburgerMenuIcon;
 
-
     //elements in the "Shop By Department" section\
     @FindBy(xpath = "//div[contains(text(),'TV, Appliances, Electronics')]")
     WebElement tvAudioAndCamerasOption;
