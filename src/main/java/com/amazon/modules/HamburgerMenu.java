@@ -22,8 +22,14 @@ public class HamburgerMenu extends BaseClass {
     @FindBy(linkText = "Televisions")
     WebElement televisionsOption;
 
+    @FindBy(css = "div.a-column.a-span12:nth-of-type(2) div div div.a-section:nth-of-type(21) li:nth-of-type(3) input")
+    WebElement samsungCheckbox;
 
-    public HamburgerMenu() {
+    @FindBy(css = "div.s-matching-dir span div.s-main-slot div.sg-col-4-of-12:nth-of-type(3) div.a-section.a-spacing-small div.a-section:nth-of-type(1) a")
+    WebElement secondTvInList;
+
+    public HamburgerMenu(WebDriver driver) {
+        super(driver);
         PageFactory.initElements(driver, this);
     }
 
