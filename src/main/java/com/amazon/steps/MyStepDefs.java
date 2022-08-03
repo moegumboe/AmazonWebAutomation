@@ -50,7 +50,7 @@ public class MyStepDefs extends BaseClass {
     @And("I sort the results by High to Low")
     public void iSortTheResultsBy() {
         driver.findElement(By.cssSelector("span.a-dropdown-prompt")).click();
-        driver.findElement(By.cssSelector("div.a-popover-inner  li:nth-of-type(2) a")).click();
+        driver.findElement(By.cssSelector("div.a-popover-inner  li:nth-of-type(3) a")).click();
     }
 
     @And("I select the second TV")
