@@ -4,8 +4,8 @@ Automation practice with Amazon - **Mohammad Khan**
 ### Project Structure
  
  *Selenium with Cucumber*
-  
-AmazonWebAutomation/ src/ main/ java/ com.amazon/
+    
+      AmazonWebAutomation/ src/ main/ java/ com.amazon/
                               
                               / configurations/ config.properties
                               
